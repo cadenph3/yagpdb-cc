@@ -2,7 +2,8 @@ This group of CCs was an attempt to fix an issue with the included mute system. 
 channel without any other members seeing. The most they would see is the trigger briefly on the screen before the custom command
 deletes it.
 
-Reasons are already preset and there is no argument for a reason in any of these.
+Reasons are already preset and there is no argument for a reason in any of these. You may also just whitelist the command for your staff
+role, however, you will still have to enter the role name into the configuration variables.
 
 Variables to set:
 Mute
