@@ -14,4 +14,7 @@
 	{{$duration := toDuration $d}}
 	{{scheduleUniqueCC (toInt $uCCID) nil $duration.Seconds 69 $v}}
 	{{deleteTrigger 1}}
+{{else}}
+Do you look like staff?
+{{sleep 5}}{{deleteResponse 1}}
 {{end}}
