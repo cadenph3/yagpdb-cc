@@ -1,0 +1,8 @@
+{{if .ExecData}}
+	{{$v := .ExecData}}
+	{{$silent := execAdmin "unmute" $v}}
+{{else}}
+	{{$v := .CmdArgs}}
+	{{$silent := execAdmin "unmute" $v}}
+	{{deleteTrigger 1}}
+{{end}}
