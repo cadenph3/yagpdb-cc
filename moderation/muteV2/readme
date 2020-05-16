@@ -4,10 +4,15 @@ deletes it.
 
 Reasons are already preset and there is no argument for a reason in any of these.
 
+Variables to set:
 Mute
-
+$staff is your Staff role, anybody with this role will have permissions to use this command
 
 Tempmute
-
+$staff is your Staff role, anybody with this role will have permissions to use this command
+$uCCID is the ID of your unmute custom command
 
 Unmute
+$staff is your Staff role, anybody with this role will have permissions to use this command
+
+Mute v2 1.0
