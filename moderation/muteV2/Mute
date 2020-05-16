@@ -3,7 +3,7 @@
 
 {{/*CODE*/}}
 {{ $v := ""}}{{ $d := ""}}
-{{if hasRoleName "Staff"}}{{/*Enter Staff Role Here*/}}
+{{if hasRoleName $staff}}
 {{$args := .Args}}
 {{if gt (len $args) 0}}
 	{{$temp := split $args  " "}}
