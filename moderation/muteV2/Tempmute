@@ -1,0 +1,13 @@
+{{ $v := ""}}{{ $d := ""}}
+{{$uCCID := 27}}{{/*Enter the CCID of your Unmute CC*/}}
+{{$args:= (joinStr " " (slice .Args 1))}}
+
+{{if hasRoleName "Staff"}}{{/*Enter Staff Role Here*/}}
+	{{$temp := split $args (reFind " " $args)}}
+	{{ $v :=  (index $temp 0)}}
+	{{ $d := (index $temp 1)}}
+	{{$silent := execAdmin "mute" $v "0" "You have been temporarily muted"}}
+	{{$duration := toDuration $d}}
+	{{scheduleUniqueCC (toInt $uCCID) nil $duration.Seconds 69 $v}}
+	{{deleteTrigger 1}}
+{{end}}
