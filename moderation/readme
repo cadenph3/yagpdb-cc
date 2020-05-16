@@ -1,13 +1,1 @@
-This group of CCs was an attempt to fix an issue with the included mute system. It allows you to silently mute members of a
-channel without any other members seeing. The most they would see is the trigger briefly on the screen before the custom command
-deletes it.
 
-Reasons are already preset and there is no argument for a reason in any of these.
-
-Mute
-
-
-Tempmute
-
-
-Unmute
