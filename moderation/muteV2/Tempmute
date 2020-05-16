@@ -1,8 +1,12 @@
+{{/*USER VARIABLES*/}}
+{{$staff := "Staff"}}
+{{$uCCID := 27}}
+
+{{/*CODE*/}}
 {{ $v := ""}}{{ $d := ""}}
-{{$uCCID := 27}}{{/*Enter the CCID of your Unmute CC*/}}
 {{$args:= (joinStr " " (slice .Args 1))}}
 
-{{if hasRoleName "Staff"}}{{/*Enter Staff Role Here*/}}
+{{if hasRoleName $staff}}{{/*Enter Staff Role Here*/}}
 	{{$temp := split $args (reFind " " $args)}}
 	{{ $v :=  (index $temp 0)}}
 	{{ $d := (index $temp 1)}}
