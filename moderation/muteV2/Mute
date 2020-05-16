@@ -1,3 +1,7 @@
+{{/*USER VARIABLES*/}}
+{{$staff := "Staff"}}
+
+{{/*CODE*/}}
 {{ $v := ""}}{{ $d := ""}}
 {{if hasRoleName "Staff"}}{{/*Enter Staff Role Here*/}}
 {{$args := .Args}}
