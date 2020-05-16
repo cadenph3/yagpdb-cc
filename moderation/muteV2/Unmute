@@ -10,5 +10,7 @@
 	{{$v := .CmdArgs}}
 	{{$silent := execAdmin "unmute" $v}}
 	{{deleteTrigger 1}}
-	{{end}}
+	{{else}}
+	Do you look like staff?
+	{{sleep 5}}{[deleteResponse 1}}{{end}}
 {{end}}
