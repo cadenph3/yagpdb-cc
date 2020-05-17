@@ -4,11 +4,11 @@
 {{/*CODE*/}}
 {{if .ExecData}}
 	{{$v := .ExecData}}
-	{{$silent := execAdmin "unmute" $v "You have been unmuted by a staff member.}}
+	{{$silent := execAdmin "unmute" $v}}
 {{else}}
 	{{if hasRoleName $staff}}
 	{{$v := .CmdArgs}}
-	{{$silent := execAdmin "unmute" $v "You have been unmuted by a staff member."}}
+	{{$silent := execAdmin "unmute" $v}}
 	{{deleteTrigger 1}}
 	{{else}}
 	Do you look like staff?
