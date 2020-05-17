@@ -6,7 +6,10 @@ I have changed this to a permanant configuration option as I personally only eve
 
 Original: Jo3-L/yagpdb-cc
 License for the source code contained is included.
+The original author has many custom commands in the repository listed, and you should check him out.
 
-For the giveaway CC, reccommended trigger is "giveaway" but you can use whatever you want.
+For the giveaway CC, use trigger "giveaway".
 
 For the reaction CC, set the trigger to reaction (Added or removed).
+
+You can edit the emoji to be used as a reaction. Make sure you change this setting in both CCs if you wish to change from the default.
