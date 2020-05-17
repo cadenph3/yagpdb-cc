@@ -16,5 +16,5 @@
 	{{deleteTrigger 1}}
 {{else}}
 Do you look like staff?
-{{sleep 5}}{{deleteResponse 1}}
+{{sleep 5}}{{deleteResponse 1}}{{deleteTrigger 1}}
 {{end}}
