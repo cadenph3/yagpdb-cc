@@ -1,0 +1,7 @@
+Very simple CC for a member counter in the channel topic space.
+
+The only variable you need to set is $chan, which is the ID of the channel you wish to use.
+
+Trigger type: minute interval
+
+Don't forget to also select your channel in the dropdown menu, and set your desired refresh interval.
