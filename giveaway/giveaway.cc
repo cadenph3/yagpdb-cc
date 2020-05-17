@@ -1,6 +1,6 @@
 {{/* CONFIGURATION VALUES START */}}
 {{$giveawayEmoji := `🎉`}}{{/* set giveaway emoji to be used */}}
-{{$giveawayChan := 711258150954598421}}{{/* Channel for giveaways to occur*/}}
+{{$giveawayChan := 711258150954598421}}{{/* set channel ID for giveaways to occur*/}}
  
 {{/* CONFIGURATION VALUES END */}}
  
