@@ -1,0 +1,9 @@
+The BetterLinks command was at attempt to fix a lack of flexibility in YAG's built in link rule.
+
+If the channel name has a number in it, the link will be ignored. This allows users to send links in ticket channels, which in my server, are the only channels with numbers.
+
+Set the trigger to regex. The following regex will trigger when any domain name in the list is detected.
+^*\.com$*|^*\.gg$*|^*\.net$*|^*\.org$*|^*\.play$*|^*\.co$*|^*\.biz$*|^*\.info$*|^*\.jobs$*|^*\.mobi$*|^*\.name$*|^*\.ly$*|^*\.tel$*|^*\.email$*|^*\.tech$*|^*\.xyz$*|^*\.codes$*|^*\.biz$*|^*\.ca$*|^*\.cn$*|^*\.fr$*|^*\.ch$*|^*\.au$*|^*\.in$*|^*\.de$*|^*\.jp$*|^*\.nl$*|^*\.uk$*|^*\.mx$*|^*\.no$*|^*\.ru$*|^*\.br$*|^*\.se$*|^*\.es$*|^*\.us$*
+
+There is also an option to set a whitelisted domain. If the message contains this domain, it will be ignored.
+It is set up to only delete messages containing violations, but you can add your own warnings or other punishments with exec or execAdmin.
