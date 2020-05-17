@@ -1,0 +1,8 @@
+This giveaway system was not originally created by me, but has been modified.
+
+Originally, the command included a required -c argument to specify what channel you wish to use. I have changed this to a permanant configuration option as I personally only ever used one channel. It also tags @everyone with a message containing the prize for each giveaway. 
+
+
+For the giveaway CC, reccommended trigger is "giveaway" but you can use whatever you want.
+
+For the reaction CC, set the trigger to reaction (Added or removed).
