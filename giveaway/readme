@@ -1,19 +1,21 @@
 DISCLAIMER: aint mine.
 
-This giveaway system was not originally created by me, but has been modified.
+This giveaway system was not originally created by me, but has been modified. Originally, the command included a required -c argument to 
+specify what channel you wish to use. 
 
-Originally, the command included a required -c argument to specify what channel you wish to use. 
-
-I have changed this to a permanant configuration option as I personally only ever used one channel. It also tags @everyone with a message containing the prize for each giveaway. 
+I have changed this to a permanant configuration option as I personally only ever used one channel. It also tags @everyone with a message 
+containing the prize for each giveaway. 
 
 Original: Jo3-L/yagpdb-cc
 License for the source code contained is included.
 The original author has many custom commands in the repository listed, and you should check him out.
 
-For the giveaway CC, use trigger "giveaway".
+Triggers:
 
+For the giveaway CC, use trigger "giveaway".
 For the reaction CC, set the trigger to reaction (Added or removed).
 
 You can edit the emoji to be used as a reaction. Make sure you change this setting in both CCs if you wish to change from the default.
 
-This CC is forever evolving as I learn more about the Custom Command enviornment and programming in general. All work done by me in this command comprises of simple additions.
+This CC is forever evolving as I learn more about the Custom Command enviornment and programming in general. All work done by me in this 
+command comprises of simple additions.
