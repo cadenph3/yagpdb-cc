@@ -3,7 +3,7 @@ The VerifyLog CC was made when we migrated from YAG's own DM verification to a r
 Settings
 
 $msgID: ID of the message containing the reaction
-$oe: Emoji of the reaction you want to monitor
+$oe: Reaction you want to monitor
 $log: channel to send log events to
 $MemberRole: Role name of the role the reaction adds. This prevents users who have already verified from creating a log event.
 
