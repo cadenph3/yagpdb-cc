@@ -13,3 +13,5 @@ For the giveaway CC, use trigger "giveaway".
 For the reaction CC, set the trigger to reaction (Added or removed).
 
 You can edit the emoji to be used as a reaction. Make sure you change this setting in both CCs if you wish to change from the default.
+
+This CC is forever evolving as I learn more about the Custom Command enviornment and programming in general. All work done by me in this command comprises of simple additions.
